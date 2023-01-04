@@ -1,0 +1,224 @@
+/* css for image logo */
+.logo-image {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    position: absolute;
+    z-index: 10;
+}
+
+.logo-image img {
+    height: 5vw;
+    width: 10vw;
+    top: -300px;
+}
+
+/*********----**********/
+
+/* css for background image container */
+.background-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.background-image img {
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/*********----**********/
+
+/* css for header section along with text and images */
+
+.content-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.header-container-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 0 0 0 4vw;
+    justify-content: center;
+}
+
+.container-heading p {
+    font-size: 2.71vw;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    top: 0px;
+}
+
+.container-text {
+    font-size: 1.18vw;
+    font-weight: 550;
+    margin-top: 150px;
+    position: relative;
+    display: block;
+    top: -15%;
+}
+
+.arrow-button-container {
+    width: 100%;
+    margin-top: 10%;
+    position: relative;
+    display: block;
+}
+
+.demo-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 80px;
+    height: 50px;
+    background-color: #2d66f5;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -123px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.arrow-image-container {
+    margin-top: 10px;
+    position: relative;
+    display: block;
+}
+
+.arrow-image-container img {
+    height: 40%;
+    margin-left: 50px;
+    width: 24%;
+}
+
+/*********----**********/
+
+/* css for profile section */
+
+.dashboard-container {
+    display: flex;
+    align-items: flex-end;
+    height: 127%;
+    padding: 0;
+    justify-content: flex-end;
+    position: relative;
+    width: 50%;
+}
+
+.dasboard-first-image {
+    bottom: 59vw;
+    height: 2vw;
+    position: absolute;
+    right: 44.5vw;
+    width: 2vw;
+}
+
+.dasboard-second-image {
+    margin-bottom: -2vw;
+    width: 45vw;
+}
+/*********----**********/
+
+/* css for multi brand logo container */
+
+.multi-logo-container {
+    bottom: 0;
+    display: flex;
+    top: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+
+.multi-logo-container img {
+    margin: 0 1vw 1vw;
+    object-fit: contain;
+    
+}
+
+.logo-1 {
+    bottom: 23vw;
+    object-fit: contain;
+    position: absolute;
+    right: 42vw;
+    width: 5vw;
+    margin: 0 1vw 1vw;
+}
+
+.logo-2 {
+    object-fit: contain;
+    position: absolute;
+    width: 5vw;
+    margin: 0 1vw 1vw;
+    bottom: 20vw;
+    right: 60vw;
+}
+
+.logo-3 {
+    bottom: 0vw;
+    right: 43.7vw;
+    object-fit: contain;
+    position: absolute;
+    width: 5vw;
+    margin: 0 1vw 1vw;
+}
+
+.logo-4 {
+    bottom: 41vw;
+    object-fit: contain;
+    position: absolute;
+    width: 5vw;
+    margin: 0 1vw 1vw;
+    right: 14vw;
+}
+
+.logo-5 {
+    bottom: -2vw;
+    right: 72vw;
+    object-fit: contain;
+    position: absolute;
+    width: 5vw;
+    margin: 0 1vw 1vw;
+}
+
+.logo-6 {
+    bottom: 42vw;
+    right: 29vw;
+    object-fit: contain;
+    position: absolute;
+    width: 5vw;
+    margin: 0 1vw 1vw;
+}
+
+/*********----**********/

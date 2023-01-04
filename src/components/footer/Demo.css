@@ -1,0 +1,104 @@
+/* form component css */
+.demo-container {
+    display: flex;
+    align-self: center;
+    height: 90vh;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+
+/* form contianer heading */
+.section-heading {
+    position: relative;
+    display: block;
+    width: 30vw;
+    text-align: center;
+    /* background-color: green; */
+    top: 100%;
+    left: -20%;
+}
+
+.section-heading p {
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    display: block;
+}
+
+/* form container css */
+.demo-form-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    right: 180px;
+    top: 170%;
+}
+
+.form-container {
+    position: absolute;
+    top: 0px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+    position: relative;
+    width: 200%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.input-fields label {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 4px;
+    padding: 2px;
+}
+
+.input-fields input {
+    width: 120%;
+    height: 30px;
+    margin-right: -5px;
+    padding: 4px;
+    padding-left: 10px;
+    background-color: #eff0f3;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-container button {
+    width: 249%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2d66f5;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+
+/* css for background image */
+.section-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    top: 150%;
+}
